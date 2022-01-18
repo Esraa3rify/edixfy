@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="education_i">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="from_thinki">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #F2F2F2
+        </item>
+
+    </style>
+
+
+    <style name="welcome_to_">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+    <style name="student">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.05
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+
+    <style name="don_t_have_">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #F2F2F2
+        </item>
+
+    </style>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#86479B"
+    tools:context=".start">
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="369dp"
+        android:id="@+id/img_layout"
+        android:background="@drawable/whitebg">
+
+        <ImageView
+            android:layout_width="390dp"
+            android:layout_height="350dp"
+            android:src="@drawable/boy"></ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/education_i"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="51dp"
+        android:text="@string/education_i"
+        android:textAppearance="@style/education_i" />
+<LinearLayout
+    android:layout_width="380dp"
+    android:orientation="vertical"
+    android:layout_marginRight="55dp"
+    android:layout_height="400dp">
+    <TextView
+        android:id="@+id/from_thinki"
+        android:layout_width="307dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/from_thinki"
+        android:textAppearance="@style/from_thinki" />
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:id="@+id/startBTn"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="38dp"
+        android:text="Start"
+        android:textAppearance="@style/student"
+
+        android:textSize="28sp"
+        android:background="@drawable/strtbtn" />
+</LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86479B"
+    android:orientation="vertical"
+    tools:context=".continuasAs">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="263dp"
+        android:background="@drawable/whitebg">
+
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="255dp"
+            android:src="@drawable/girll"></ImageView>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/welcome_to_"
+        android:layout_width="348dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal|top"
+        android:layout_marginTop="26dp"
+        android:text="@string/welcome_to_"
+        android:textAppearance="@style/welcome_to_" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        >
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:id="@+id/startBTn"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="38dp"
+        android:text="Student"
+        android:textAppearance="@style/student"
+
+        android:textSize="28sp"
+        android:background="@drawable/strtbtn"/>
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:id="@+id/teatcherBTn"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="38dp"
+        android:text="Teacher"
+        android:textSize="28sp"
+        android:textAppearance="@style/student"
+        android:background="@drawable/strtbtn"/>
+
+
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:id="@+id/SchoolBTn"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="38dp"
+        android:text="School"
+      android:textAppearance="@style/student"
+        android:textSize="28sp"
+        android:background="@drawable/strtbtn"/>
+
+        <TextView
+            android:id="@+id/don_t_have_"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="30dp"
+            android:gravity="top"
+            android:text="@string/don_t_have_"
+            android:textAppearance="@style/don_t_have_" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
